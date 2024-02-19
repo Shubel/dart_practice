@@ -20,6 +20,10 @@ main() {
   rollNo.insertAll(4, [30, 49, 68]);
   print(rollNo);    //  [61, 92, 43, 27, 30, 49, 68, 8, 34, 41, 87, 2, 18, 19, 20]
 
+  // list clear() method
+  rollNo.clear();
+  print(rollNo);    // []
+
 
 
 
