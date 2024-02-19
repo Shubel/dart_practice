@@ -1,4 +1,10 @@
 main() {
+
+  //int Typed List
+  List<int> rollNo = [1, 2, 3, 4, 5];
+  print(rollNo);      // [1, 2, 3, 4, 5]
+
+  // String Typed List
   List<String> studentName = ['Sunny', 'Shakil', 'Rafi', 'Siam'];
   print(studentName);                   // [Sunny, Shakil, Rafi, Siam]
 
