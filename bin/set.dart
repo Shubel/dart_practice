@@ -1,5 +1,7 @@
 main() {
-  Set<String> studentName = {'Sunny', 'Shakil', 'Subaha', 'Ety', 'Anha', 'Nof'};
+
+  // Set must contain unique values. It doesn't allow duplicate values
+  Set<String> studentName = {'Sunny', 'Shakil', 'Subaha', 'Ety', 'Anha', 'Nof', 'Sunny'};
   print(studentName);                     // {Sunny, Shakil, Subaha, Ety, Anha, Nof}
   studentName.add('Mahi');
   print(studentName);                     // {Sunny, Shakil, Subaha, Ety, Anha, Nof, Mahi}
@@ -9,4 +11,5 @@ main() {
   print(studentName.elementAt(4));        // Anha
   studentName.clear();
   print(studentName);                     // {}
+
 }
