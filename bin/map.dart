@@ -21,8 +21,8 @@ main() {
   print(nameList[56]);                      // null
 
   // containsKey and containsValue
-  print(nameList.containsKey(100));
-  print(nameList.containsValue('Shams'));
+  print(nameList.containsKey(100));             // false
+  print(nameList.containsValue('Shams'));       // false
 
   // finding element by 'key'
   print(nameList[4]);                       // Subaha
