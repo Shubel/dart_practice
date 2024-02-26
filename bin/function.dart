@@ -1,4 +1,6 @@
 main() {
+
+  // basic function
   wishesMessage('Sunny', 'A+');
   wishesMessage('Shakil', 'B+');
 }
