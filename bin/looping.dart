@@ -43,4 +43,12 @@ main() {
     print(value);
   }
 
+
+  // while loop
+  int i = 0;
+  while (i <= 2) {
+    print('Current value is $i');
+    i = i + 1;
+  }
+
 }
