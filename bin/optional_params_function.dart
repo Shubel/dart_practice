@@ -9,7 +9,7 @@ main() {
   myDetails('Nof');
 }
 
-myDetails(String name, [String person = '', int age = 0]) {
+void myDetails(String name, [String person = '', int age = 0]) {
   print('Hello, $name');
   print('You are $person');
   print('You are $age years old');
