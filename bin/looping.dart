@@ -16,4 +16,16 @@ main() {
   }
   print('Loop is done');
 
+
+  // iterate in the List => (for loop) and (for...in loop)
+  List<String> studentName = ['Shakil', 'Ety', 'Subaha'];
+
+  for (int i = 0; i < studentName.length; i++) {
+    print('Student Name $i => ${studentName[i]}');
+  }
+
+  for (String name in studentName) {
+    print(name);
+  }
+
 }
