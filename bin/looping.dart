@@ -28,4 +28,19 @@ main() {
     print(name);
   }
 
+
+  // iterate in the Map => (for loop) and (for...in loop)
+  Map<int, String> studentRollNo = {1: 'Sunny', 2: 'Anha', 3: 'Nof'};
+
+  for (int i = 1; i <= studentRollNo.length; i++) {
+    print('Student Name=> $i: ${studentRollNo[i]} ');
+  }
+
+  for (String value in studentRollNo.values) {
+    print(value);
+  }
+  for (int value in studentRollNo.keys) {
+    print(value);
+  }
+
 }
