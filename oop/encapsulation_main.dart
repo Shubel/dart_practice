@@ -5,13 +5,13 @@ main() {
   Person personDetails = Person('Shubel', 'Islam', 'male', 28);
   print(personDetails.getFullName());                   // Shubel Islam
 
-  // setter
+  // custom setter method
   personDetails.changeGender('Female');
-  // getter
+  // custom getter method
   print(personDetails.getGender());                     // Female
 
-  // set method
+  // setter method by set keyword
   personDetails.setAge = 30;
-  // get method
+  // getter method by get keyword
   print(personDetails.getAge);                          // 30
 }
