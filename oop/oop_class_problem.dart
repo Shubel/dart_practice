@@ -1,18 +1,18 @@
 main() {
   // class instance/object
   Person personDetails = Person('Shubel', 'Islam', 'male', 28);
-  print(personDetails.firstName);
-  print(personDetails.lastName);
-  print(personDetails.getFullName());
-  print(personDetails.age);
+  print(personDetails.firstName);                       // Shubel
+  print(personDetails.lastName);                        // Islam
+  print(personDetails.getFullName());                   // Shubel Islam
+  print(personDetails.age);                             // 28
 
   // What happens if someone changes the value of the object...then it's a big problem
   // So we should use Encapsulation
   personDetails.firstName = 'Shakil';
-  print(personDetails.firstName);
-  print(personDetails.lastName);
-  print(personDetails.getFullName());
-  print(personDetails.gender);
+  print(personDetails.firstName);                       // Shakil
+  print(personDetails.lastName);                        // Islam
+  print(personDetails.getFullName());                   // Shakil Islam
+  print(personDetails.gender);                          // male
 }
 
 // class Blue-Print
