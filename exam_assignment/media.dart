@@ -1,5 +1,5 @@
-class Media{
-  void play(){
+class Media {
+  void play() {
     print("Playing media...");
   }
 }
